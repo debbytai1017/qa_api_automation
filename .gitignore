@@ -2,9 +2,20 @@
 __pycache__/
 *.pyc
 *.pyo
+logs/
 
 # Virtual Environment
 venv/
+
+# Laravel
+laravel/vendor/
+laravel/node_modules/
+laravel/.env
+
+laravel/storage/logs/*
+!laravel/storage/logs/.gitignore
+
+laravel/bootstrap/cache/*.php
 
 # pytest
 .pytest_cache/
@@ -28,3 +39,7 @@ Desktop.ini
 
 # Python Environment
 .env
+
+# OS
+.DS_Store
+Thumbs.db
