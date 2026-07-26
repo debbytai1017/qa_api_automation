@@ -7065,3 +7065,2022 @@ Response
     ]
 }
 2026-07-23 16:40:42,917 ============================================================
+2026-07-24 21:15:22,107 ============================================================
+2026-07-24 21:15:22,108 Method : GET
+2026-07-24 21:15:22,108 URL    : http://127.0.0.1:8000/api/products
+2026-07-24 21:15:22,108 
+Headers
+2026-07-24 21:15:22,108 {
+    "Content-Type": "application/json"
+}
+2026-07-24 21:15:22,108 
+Request Body
+2026-07-24 21:15:22,108 {}
+2026-07-24 21:15:22,108 
+Status Code : 200
+2026-07-24 21:15:22,108 
+Response
+2026-07-24 21:15:22,109 [
+    {
+        "id": 1,
+        "name": "explicabo",
+        "price": 1005,
+        "stock": 71,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 2,
+        "name": "et",
+        "price": 4557,
+        "stock": 79,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 3,
+        "name": "quia",
+        "price": 2629,
+        "stock": 72,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 4,
+        "name": "quo",
+        "price": 2149,
+        "stock": 23,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 5,
+        "name": "est",
+        "price": 725,
+        "stock": 100,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 6,
+        "name": "et",
+        "price": 4176,
+        "stock": 14,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 7,
+        "name": "voluptatem",
+        "price": 1532,
+        "stock": 11,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 8,
+        "name": "dolorum",
+        "price": 519,
+        "stock": 28,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 9,
+        "name": "incidunt",
+        "price": 2305,
+        "stock": 22,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 10,
+        "name": "assumenda",
+        "price": 3336,
+        "stock": 10,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 11,
+        "name": "nemo",
+        "price": 4804,
+        "stock": 8,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 12,
+        "name": "illo",
+        "price": 2452,
+        "stock": 40,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 13,
+        "name": "odit",
+        "price": 1627,
+        "stock": 36,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 14,
+        "name": "magnam",
+        "price": 3733,
+        "stock": 77,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 15,
+        "name": "quas",
+        "price": 1586,
+        "stock": 97,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 16,
+        "name": "ipsum",
+        "price": 1725,
+        "stock": 70,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 17,
+        "name": "et",
+        "price": 2995,
+        "stock": 96,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 18,
+        "name": "commodi",
+        "price": 508,
+        "stock": 85,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 19,
+        "name": "error",
+        "price": 618,
+        "stock": 38,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 20,
+        "name": "itaque",
+        "price": 259,
+        "stock": 22,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 21,
+        "name": "beatae",
+        "price": 1210,
+        "stock": 2,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 22,
+        "name": "voluptatem",
+        "price": 229,
+        "stock": 22,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 23,
+        "name": "esse",
+        "price": 2876,
+        "stock": 51,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 24,
+        "name": "in",
+        "price": 2217,
+        "stock": 70,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 25,
+        "name": "tempora",
+        "price": 4071,
+        "stock": 50,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 26,
+        "name": "nihil",
+        "price": 3663,
+        "stock": 37,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 27,
+        "name": "odio",
+        "price": 2678,
+        "stock": 45,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 28,
+        "name": "quos",
+        "price": 3380,
+        "stock": 68,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 29,
+        "name": "fuga",
+        "price": 2101,
+        "stock": 71,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 30,
+        "name": "sapiente",
+        "price": 3496,
+        "stock": 27,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 31,
+        "name": "ut",
+        "price": 2672,
+        "stock": 94,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 32,
+        "name": "rerum",
+        "price": 1511,
+        "stock": 22,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 33,
+        "name": "corrupti",
+        "price": 4503,
+        "stock": 35,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 34,
+        "name": "dignissimos",
+        "price": 2874,
+        "stock": 49,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 35,
+        "name": "est",
+        "price": 268,
+        "stock": 60,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 36,
+        "name": "aspernatur",
+        "price": 1338,
+        "stock": 41,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 37,
+        "name": "adipisci",
+        "price": 2372,
+        "stock": 58,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 38,
+        "name": "consequatur",
+        "price": 4985,
+        "stock": 93,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 39,
+        "name": "omnis",
+        "price": 3056,
+        "stock": 15,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 40,
+        "name": "omnis",
+        "price": 952,
+        "stock": 80,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 41,
+        "name": "voluptate",
+        "price": 4923,
+        "stock": 95,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 42,
+        "name": "laborum",
+        "price": 626,
+        "stock": 51,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 43,
+        "name": "laboriosam",
+        "price": 1126,
+        "stock": 37,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 44,
+        "name": "at",
+        "price": 4642,
+        "stock": 38,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 45,
+        "name": "soluta",
+        "price": 2054,
+        "stock": 61,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 46,
+        "name": "vel",
+        "price": 4534,
+        "stock": 85,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 47,
+        "name": "veritatis",
+        "price": 2382,
+        "stock": 66,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 48,
+        "name": "deleniti",
+        "price": 2290,
+        "stock": 56,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 49,
+        "name": "earum",
+        "price": 2267,
+        "stock": 79,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 50,
+        "name": "quisquam",
+        "price": 801,
+        "stock": 45,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 51,
+        "name": "beatae",
+        "price": 3439,
+        "stock": 98,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 52,
+        "name": "consequatur",
+        "price": 928,
+        "stock": 48,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 53,
+        "name": "nam",
+        "price": 4145,
+        "stock": 90,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 54,
+        "name": "dolorem",
+        "price": 393,
+        "stock": 65,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 55,
+        "name": "illo",
+        "price": 1635,
+        "stock": 83,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 56,
+        "name": "placeat",
+        "price": 2861,
+        "stock": 71,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 57,
+        "name": "laudantium",
+        "price": 3513,
+        "stock": 94,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 58,
+        "name": "eligendi",
+        "price": 2687,
+        "stock": 39,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 59,
+        "name": "praesentium",
+        "price": 3632,
+        "stock": 44,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 60,
+        "name": "consequatur",
+        "price": 4080,
+        "stock": 55,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 61,
+        "name": "quas",
+        "price": 3051,
+        "stock": 43,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 62,
+        "name": "officia",
+        "price": 1668,
+        "stock": 41,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 63,
+        "name": "et",
+        "price": 3486,
+        "stock": 53,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 64,
+        "name": "et",
+        "price": 3648,
+        "stock": 57,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 65,
+        "name": "distinctio",
+        "price": 1142,
+        "stock": 37,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 66,
+        "name": "itaque",
+        "price": 4258,
+        "stock": 12,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 67,
+        "name": "labore",
+        "price": 1122,
+        "stock": 8,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 68,
+        "name": "eum",
+        "price": 2193,
+        "stock": 98,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 69,
+        "name": "sit",
+        "price": 1152,
+        "stock": 29,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 70,
+        "name": "rem",
+        "price": 425,
+        "stock": 91,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 71,
+        "name": "voluptatem",
+        "price": 3822,
+        "stock": 21,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 72,
+        "name": "et",
+        "price": 2460,
+        "stock": 19,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 73,
+        "name": "dolorum",
+        "price": 824,
+        "stock": 7,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 74,
+        "name": "aspernatur",
+        "price": 3033,
+        "stock": 32,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 75,
+        "name": "consectetur",
+        "price": 4123,
+        "stock": 54,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 76,
+        "name": "cupiditate",
+        "price": 1747,
+        "stock": 17,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 77,
+        "name": "molestias",
+        "price": 2269,
+        "stock": 63,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 78,
+        "name": "quasi",
+        "price": 4312,
+        "stock": 62,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 79,
+        "name": "quia",
+        "price": 810,
+        "stock": 49,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 80,
+        "name": "et",
+        "price": 1838,
+        "stock": 66,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 81,
+        "name": "earum",
+        "price": 1893,
+        "stock": 75,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 82,
+        "name": "soluta",
+        "price": 2928,
+        "stock": 81,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 83,
+        "name": "numquam",
+        "price": 4746,
+        "stock": 60,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 84,
+        "name": "distinctio",
+        "price": 4187,
+        "stock": 88,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 85,
+        "name": "ut",
+        "price": 754,
+        "stock": 61,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 86,
+        "name": "culpa",
+        "price": 2230,
+        "stock": 87,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 87,
+        "name": "nostrum",
+        "price": 4847,
+        "stock": 93,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 88,
+        "name": "reprehenderit",
+        "price": 3968,
+        "stock": 94,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 89,
+        "name": "voluptatem",
+        "price": 2120,
+        "stock": 28,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 90,
+        "name": "accusantium",
+        "price": 2027,
+        "stock": 5,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 91,
+        "name": "illo",
+        "price": 2267,
+        "stock": 36,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 92,
+        "name": "possimus",
+        "price": 4237,
+        "stock": 70,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 93,
+        "name": "quas",
+        "price": 903,
+        "stock": 43,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 94,
+        "name": "consectetur",
+        "price": 1997,
+        "stock": 12,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 95,
+        "name": "beatae",
+        "price": 456,
+        "stock": 81,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 96,
+        "name": "maiores",
+        "price": 4518,
+        "stock": 51,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 97,
+        "name": "autem",
+        "price": 1989,
+        "stock": 87,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 98,
+        "name": "aliquid",
+        "price": 3115,
+        "stock": 82,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 99,
+        "name": "eligendi",
+        "price": 1867,
+        "stock": 80,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 100,
+        "name": "voluptatem",
+        "price": 3205,
+        "stock": 83,
+        "created_at": "2026-06-29T15:44:33.000000Z",
+        "updated_at": "2026-06-29T15:44:33.000000Z"
+    },
+    {
+        "id": 103,
+        "name": "debby",
+        "price": 9999,
+        "stock": 0,
+        "created_at": "2026-07-08T08:22:23.000000Z",
+        "updated_at": "2026-07-08T08:22:23.000000Z"
+    },
+    {
+        "id": 104,
+        "name": "MacBook Pro",
+        "price": 65000,
+        "stock": 20,
+        "created_at": "2026-07-09T05:07:50.000000Z",
+        "updated_at": "2026-07-09T05:07:50.000000Z"
+    },
+    {
+        "id": 105,
+        "name": "MacBook Pro",
+        "price": 65000,
+        "stock": 20,
+        "created_at": "2026-07-09T05:13:02.000000Z",
+        "updated_at": "2026-07-09T05:13:02.000000Z"
+    },
+    {
+        "id": 107,
+        "name": "MacBook Pro",
+        "price": 65000,
+        "stock": 20,
+        "created_at": "2026-07-09T07:50:17.000000Z",
+        "updated_at": "2026-07-09T07:50:17.000000Z"
+    },
+    {
+        "id": 113,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-10T08:37:18.000000Z",
+        "updated_at": "2026-07-10T08:37:18.000000Z"
+    },
+    {
+        "id": 114,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-10T09:43:14.000000Z",
+        "updated_at": "2026-07-10T09:43:14.000000Z"
+    },
+    {
+        "id": 115,
+        "name": "Pixel 10",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-10T09:43:14.000000Z",
+        "updated_at": "2026-07-10T09:43:14.000000Z"
+    },
+    {
+        "id": 116,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-10T09:43:44.000000Z",
+        "updated_at": "2026-07-10T09:43:44.000000Z"
+    },
+    {
+        "id": 117,
+        "name": "Pixel 10",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-10T09:43:45.000000Z",
+        "updated_at": "2026-07-10T09:43:45.000000Z"
+    },
+    {
+        "id": 118,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-10T09:47:01.000000Z",
+        "updated_at": "2026-07-10T09:47:01.000000Z"
+    },
+    {
+        "id": 119,
+        "name": "Pixel 10",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-10T09:47:02.000000Z",
+        "updated_at": "2026-07-10T09:47:02.000000Z"
+    },
+    {
+        "id": 120,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-10T09:50:47.000000Z",
+        "updated_at": "2026-07-10T09:50:47.000000Z"
+    },
+    {
+        "id": 121,
+        "name": "Pixel 10",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-10T09:50:48.000000Z",
+        "updated_at": "2026-07-10T09:50:48.000000Z"
+    },
+    {
+        "id": 122,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-10T09:56:02.000000Z",
+        "updated_at": "2026-07-10T09:56:02.000000Z"
+    },
+    {
+        "id": 123,
+        "name": "Pixel 10",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-10T09:56:02.000000Z",
+        "updated_at": "2026-07-10T09:56:02.000000Z"
+    },
+    {
+        "id": 124,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-10T09:57:03.000000Z",
+        "updated_at": "2026-07-10T09:57:03.000000Z"
+    },
+    {
+        "id": 125,
+        "name": "Pixel 10",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-10T09:57:04.000000Z",
+        "updated_at": "2026-07-10T09:57:04.000000Z"
+    },
+    {
+        "id": 126,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-10T09:58:14.000000Z",
+        "updated_at": "2026-07-10T09:58:14.000000Z"
+    },
+    {
+        "id": 127,
+        "name": "Pixel 10",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-10T09:58:14.000000Z",
+        "updated_at": "2026-07-10T09:58:14.000000Z"
+    },
+    {
+        "id": 128,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-10T09:59:12.000000Z",
+        "updated_at": "2026-07-10T09:59:12.000000Z"
+    },
+    {
+        "id": 129,
+        "name": "Pixel 10",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-10T09:59:13.000000Z",
+        "updated_at": "2026-07-10T09:59:13.000000Z"
+    },
+    {
+        "id": 130,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-10T09:59:58.000000Z",
+        "updated_at": "2026-07-10T09:59:58.000000Z"
+    },
+    {
+        "id": 131,
+        "name": "Pixel 10",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-10T09:59:59.000000Z",
+        "updated_at": "2026-07-10T09:59:59.000000Z"
+    },
+    {
+        "id": 132,
+        "name": "iPhone 18",
+        "price": 39999,
+        "stock": 22,
+        "created_at": "2026-07-13T09:38:23.000000Z",
+        "updated_at": "2026-07-13T09:38:23.000000Z"
+    },
+    {
+        "id": 133,
+        "name": "Pixel 10",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-13T09:38:24.000000Z",
+        "updated_at": "2026-07-13T09:38:24.000000Z"
+    },
+    {
+        "id": 134,
+        "name": "Pixel 10 Pro",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-13T09:38:25.000000Z",
+        "updated_at": "2026-07-13T09:38:26.000000Z"
+    },
+    {
+        "id": 136,
+        "name": "Pixel_1784111898",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-15T10:38:18.000000Z",
+        "updated_at": "2026-07-15T10:38:18.000000Z"
+    },
+    {
+        "id": 137,
+        "name": "Pixel_1784111898",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-15T10:38:19.000000Z",
+        "updated_at": "2026-07-15T10:38:19.000000Z"
+    },
+    {
+        "id": 138,
+        "name": "Pixel_1784111899",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-15T10:38:19.000000Z",
+        "updated_at": "2026-07-15T10:38:19.000000Z"
+    },
+    {
+        "id": 140,
+        "name": "Pixel_1784112563",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-15T10:49:23.000000Z",
+        "updated_at": "2026-07-15T10:49:23.000000Z"
+    },
+    {
+        "id": 141,
+        "name": "Pixel_1784112563",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-15T10:49:23.000000Z",
+        "updated_at": "2026-07-15T10:49:23.000000Z"
+    },
+    {
+        "id": 142,
+        "name": "Pixel_1784112564",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-15T10:49:24.000000Z",
+        "updated_at": "2026-07-15T10:49:24.000000Z"
+    },
+    {
+        "id": 144,
+        "name": "Pixel_3e77f7b2",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T06:58:47.000000Z",
+        "updated_at": "2026-07-16T06:58:47.000000Z"
+    },
+    {
+        "id": 145,
+        "name": "Pixel_fa7ea964",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T06:58:48.000000Z",
+        "updated_at": "2026-07-16T06:58:48.000000Z"
+    },
+    {
+        "id": 146,
+        "name": "Pixel_a00ee6c6",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-16T06:58:49.000000Z",
+        "updated_at": "2026-07-16T06:58:49.000000Z"
+    },
+    {
+        "id": 148,
+        "name": "Pixel_fe94c9a7",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:07:59.000000Z",
+        "updated_at": "2026-07-16T07:07:59.000000Z"
+    },
+    {
+        "id": 149,
+        "name": "Pixel_1e4bdf6d",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:07:59.000000Z",
+        "updated_at": "2026-07-16T07:07:59.000000Z"
+    },
+    {
+        "id": 150,
+        "name": "Pixel_b6d42ddc",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-16T07:07:59.000000Z",
+        "updated_at": "2026-07-16T07:08:00.000000Z"
+    },
+    {
+        "id": 152,
+        "name": "Pixel_0951f9d5",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:10:43.000000Z",
+        "updated_at": "2026-07-16T07:10:43.000000Z"
+    },
+    {
+        "id": 153,
+        "name": "Pixel_8f9c9353",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:10:43.000000Z",
+        "updated_at": "2026-07-16T07:10:43.000000Z"
+    },
+    {
+        "id": 154,
+        "name": "Pixel_e3066c8f",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-16T07:10:44.000000Z",
+        "updated_at": "2026-07-16T07:10:44.000000Z"
+    },
+    {
+        "id": 156,
+        "name": "Pixel_d8c53863",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:15:44.000000Z",
+        "updated_at": "2026-07-16T07:15:44.000000Z"
+    },
+    {
+        "id": 157,
+        "name": "Pixel_c0cd3876",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:15:45.000000Z",
+        "updated_at": "2026-07-16T07:15:45.000000Z"
+    },
+    {
+        "id": 158,
+        "name": "Pixel_53a0dc3e",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-16T07:15:45.000000Z",
+        "updated_at": "2026-07-16T07:15:45.000000Z"
+    },
+    {
+        "id": 160,
+        "name": "Pixel_521f0463",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:24:25.000000Z",
+        "updated_at": "2026-07-16T07:24:25.000000Z"
+    },
+    {
+        "id": 161,
+        "name": "Pixel_70e5703b",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:24:26.000000Z",
+        "updated_at": "2026-07-16T07:24:26.000000Z"
+    },
+    {
+        "id": 162,
+        "name": "Pixel_9ad7031a",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-16T07:24:27.000000Z",
+        "updated_at": "2026-07-16T07:24:27.000000Z"
+    },
+    {
+        "id": 164,
+        "name": "Pixel_Pixel_7531507e",
+        "price": 32000,
+        "stock": 40,
+        "created_at": "2026-07-16T07:24:29.000000Z",
+        "updated_at": "2026-07-16T07:24:29.000000Z"
+    },
+    {
+        "id": 165,
+        "name": "iPhone_Pixel_9bfa0a89",
+        "price": 45000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:24:29.000000Z",
+        "updated_at": "2026-07-16T07:24:29.000000Z"
+    },
+    {
+        "id": 166,
+        "name": "Galaxy_Pixel_6aaceb1e",
+        "price": 28000,
+        "stock": 35,
+        "created_at": "2026-07-16T07:24:30.000000Z",
+        "updated_at": "2026-07-16T07:24:30.000000Z"
+    },
+    {
+        "id": 167,
+        "name": "Pixel_af12fab7",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:27:14.000000Z",
+        "updated_at": "2026-07-16T07:27:14.000000Z"
+    },
+    {
+        "id": 168,
+        "name": "Pixel_086c52c1",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:27:14.000000Z",
+        "updated_at": "2026-07-16T07:27:14.000000Z"
+    },
+    {
+        "id": 169,
+        "name": "Pixel_16609355",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-16T07:27:15.000000Z",
+        "updated_at": "2026-07-16T07:27:15.000000Z"
+    },
+    {
+        "id": 171,
+        "name": "Pixel_Pixel_244223ad",
+        "price": 32000,
+        "stock": 40,
+        "created_at": "2026-07-16T07:27:17.000000Z",
+        "updated_at": "2026-07-16T07:27:17.000000Z"
+    },
+    {
+        "id": 172,
+        "name": "iPhone_Pixel_143c3f7e",
+        "price": 45000,
+        "stock": 30,
+        "created_at": "2026-07-16T07:27:17.000000Z",
+        "updated_at": "2026-07-16T07:27:17.000000Z"
+    },
+    {
+        "id": 173,
+        "name": "Galaxy_Pixel_e255952f",
+        "price": 28000,
+        "stock": 35,
+        "created_at": "2026-07-16T07:27:18.000000Z",
+        "updated_at": "2026-07-16T07:27:18.000000Z"
+    },
+    {
+        "id": 174,
+        "name": "Pixel_1bd73e68",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-17T02:01:04.000000Z",
+        "updated_at": "2026-07-17T02:01:04.000000Z"
+    },
+    {
+        "id": 175,
+        "name": "Pixel_100609e9",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-17T02:01:05.000000Z",
+        "updated_at": "2026-07-17T02:01:05.000000Z"
+    },
+    {
+        "id": 176,
+        "name": "Pixel_b80718eb",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-17T02:01:06.000000Z",
+        "updated_at": "2026-07-17T02:01:07.000000Z"
+    },
+    {
+        "id": 178,
+        "name": "Pixel_da2dbbfe",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-17T02:12:51.000000Z",
+        "updated_at": "2026-07-17T02:12:51.000000Z"
+    },
+    {
+        "id": 179,
+        "name": "Pixel_7610e3ac",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-17T02:12:51.000000Z",
+        "updated_at": "2026-07-17T02:12:51.000000Z"
+    },
+    {
+        "id": 180,
+        "name": "Pixel_2058d6fa",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-17T02:12:52.000000Z",
+        "updated_at": "2026-07-17T02:12:52.000000Z"
+    },
+    {
+        "id": 182,
+        "name": "Pixel_7353ea32",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-17T02:13:03.000000Z",
+        "updated_at": "2026-07-17T02:13:03.000000Z"
+    },
+    {
+        "id": 183,
+        "name": "Pixel_9ab9fa5b",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-17T02:13:03.000000Z",
+        "updated_at": "2026-07-17T02:13:03.000000Z"
+    },
+    {
+        "id": 184,
+        "name": "Pixel_c331f61f",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-17T02:13:04.000000Z",
+        "updated_at": "2026-07-17T02:13:04.000000Z"
+    },
+    {
+        "id": 186,
+        "name": "Pixel_b2283669",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-20T10:14:48.000000Z",
+        "updated_at": "2026-07-20T10:14:48.000000Z"
+    },
+    {
+        "id": 187,
+        "name": "Pixel_04493fdc",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-20T10:14:49.000000Z",
+        "updated_at": "2026-07-20T10:14:49.000000Z"
+    },
+    {
+        "id": 188,
+        "name": "Pixel_91171ecb",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-20T10:14:50.000000Z",
+        "updated_at": "2026-07-20T10:14:51.000000Z"
+    },
+    {
+        "id": 190,
+        "name": "Pixel_58fe389b",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-20T10:19:31.000000Z",
+        "updated_at": "2026-07-20T10:19:31.000000Z"
+    },
+    {
+        "id": 191,
+        "name": "Pixel_40dcf417",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-20T10:19:32.000000Z",
+        "updated_at": "2026-07-20T10:19:32.000000Z"
+    },
+    {
+        "id": 192,
+        "name": "Pixel_b7b9bbaa",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-20T10:19:32.000000Z",
+        "updated_at": "2026-07-20T10:19:33.000000Z"
+    },
+    {
+        "id": 194,
+        "name": "Pixel_9b640bd5",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-21T08:27:02.000000Z",
+        "updated_at": "2026-07-21T08:27:02.000000Z"
+    },
+    {
+        "id": 195,
+        "name": "Pixel_8d9faa53",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-21T08:27:03.000000Z",
+        "updated_at": "2026-07-21T08:27:03.000000Z"
+    },
+    {
+        "id": 196,
+        "name": "Pixel_21a0ea1b",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-21T08:27:04.000000Z",
+        "updated_at": "2026-07-21T08:27:04.000000Z"
+    },
+    {
+        "id": 198,
+        "name": "Pixel_8dfe68e3",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-21T10:42:06.000000Z",
+        "updated_at": "2026-07-21T10:42:06.000000Z"
+    },
+    {
+        "id": 199,
+        "name": "Pixel_d0255e08",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-21T10:42:06.000000Z",
+        "updated_at": "2026-07-21T10:42:06.000000Z"
+    },
+    {
+        "id": 200,
+        "name": "Pixel_7117edf6",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-21T10:42:06.000000Z",
+        "updated_at": "2026-07-21T10:42:06.000000Z"
+    },
+    {
+        "id": 201,
+        "name": "Pixel_e174191b",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-21T10:42:06.000000Z",
+        "updated_at": "2026-07-21T10:42:06.000000Z"
+    },
+    {
+        "id": 202,
+        "name": "Pixel_10b5b2e5",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-21T10:50:35.000000Z",
+        "updated_at": "2026-07-21T10:50:35.000000Z"
+    },
+    {
+        "id": 203,
+        "name": "Pixel_6f6c1091",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-21T10:50:36.000000Z",
+        "updated_at": "2026-07-21T10:50:36.000000Z"
+    },
+    {
+        "id": 204,
+        "name": "Pixel_1ffbfaf8",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-21T10:50:36.000000Z",
+        "updated_at": "2026-07-21T10:50:36.000000Z"
+    },
+    {
+        "id": 206,
+        "name": "Pixel_460ee900",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-22T09:52:33.000000Z",
+        "updated_at": "2026-07-22T09:52:33.000000Z"
+    },
+    {
+        "id": 207,
+        "name": "Pixel_69257663",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-22T09:52:35.000000Z",
+        "updated_at": "2026-07-22T09:52:35.000000Z"
+    },
+    {
+        "id": 209,
+        "name": "Pixel_c2d8d613",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-22T10:04:43.000000Z",
+        "updated_at": "2026-07-22T10:04:43.000000Z"
+    },
+    {
+        "id": 210,
+        "name": "Pixel_9c5442db",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-22T10:04:43.000000Z",
+        "updated_at": "2026-07-22T10:04:43.000000Z"
+    },
+    {
+        "id": 211,
+        "name": "Pixel_a40e257f",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-22T10:04:44.000000Z",
+        "updated_at": "2026-07-22T10:04:44.000000Z"
+    },
+    {
+        "id": 213,
+        "name": "Pixel_c7b4289c",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-23T08:08:11.000000Z",
+        "updated_at": "2026-07-23T08:08:11.000000Z"
+    },
+    {
+        "id": 214,
+        "name": "Pixel_653fc3b6",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-23T08:08:12.000000Z",
+        "updated_at": "2026-07-23T08:08:12.000000Z"
+    },
+    {
+        "id": 215,
+        "name": "Pixel_f0fe1a0a",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-23T08:08:13.000000Z",
+        "updated_at": "2026-07-23T08:08:14.000000Z"
+    },
+    {
+        "id": 217,
+        "name": "Pixel_a0af43d4",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-23T08:40:39.000000Z",
+        "updated_at": "2026-07-23T08:40:39.000000Z"
+    },
+    {
+        "id": 218,
+        "name": "Pixel_8c9df629",
+        "price": 32000,
+        "stock": 30,
+        "created_at": "2026-07-23T08:40:40.000000Z",
+        "updated_at": "2026-07-23T08:40:40.000000Z"
+    },
+    {
+        "id": 219,
+        "name": "Pixel_fbe108ad",
+        "price": 38000,
+        "stock": 40,
+        "created_at": "2026-07-23T08:40:40.000000Z",
+        "updated_at": "2026-07-23T08:40:41.000000Z"
+    }
+]
+2026-07-24 21:15:22,109 ============================================================
+2026-07-24 21:15:22,313 ============================================================
+2026-07-24 21:15:22,313 Method : POST
+2026-07-24 21:15:22,313 URL    : http://127.0.0.1:8000/api/products
+2026-07-24 21:15:22,313 
+Headers
+2026-07-24 21:15:22,313 {
+    "Content-Type": "application/json"
+}
+2026-07-24 21:15:22,313 
+Request Body
+2026-07-24 21:15:22,313 {
+    "name": "Pixel_e6e59680",
+    "price": 32000,
+    "stock": 30
+}
+2026-07-24 21:15:22,313 
+Status Code : 201
+2026-07-24 21:15:22,313 
+Response
+2026-07-24 21:15:22,314 {
+    "name": "Pixel_e6e59680",
+    "price": 32000,
+    "stock": 30,
+    "updated_at": "2026-07-24T13:15:22.000000Z",
+    "created_at": "2026-07-24T13:15:22.000000Z",
+    "id": 221
+}
+2026-07-24 21:15:22,314 ============================================================
+2026-07-24 21:15:22,548 ============================================================
+2026-07-24 21:15:22,548 Method : POST
+2026-07-24 21:15:22,548 URL    : http://127.0.0.1:8000/api/products
+2026-07-24 21:15:22,548 
+Headers
+2026-07-24 21:15:22,549 {
+    "Content-Type": "application/json"
+}
+2026-07-24 21:15:22,549 
+Request Body
+2026-07-24 21:15:22,549 {
+    "name": "Pixel_c213d847",
+    "price": 32000,
+    "stock": 30
+}
+2026-07-24 21:15:22,549 
+Status Code : 201
+2026-07-24 21:15:22,549 
+Response
+2026-07-24 21:15:22,549 {
+    "name": "Pixel_c213d847",
+    "price": 32000,
+    "stock": 30,
+    "updated_at": "2026-07-24T13:15:22.000000Z",
+    "created_at": "2026-07-24T13:15:22.000000Z",
+    "id": 222
+}
+2026-07-24 21:15:22,549 ============================================================
+2026-07-24 21:15:22,737 ============================================================
+2026-07-24 21:15:22,738 Method : GET
+2026-07-24 21:15:22,738 URL    : http://127.0.0.1:8000/api/products/222
+2026-07-24 21:15:22,738 
+Headers
+2026-07-24 21:15:22,738 {
+    "Content-Type": "application/json"
+}
+2026-07-24 21:15:22,738 
+Request Body
+2026-07-24 21:15:22,738 {}
+2026-07-24 21:15:22,738 
+Status Code : 200
+2026-07-24 21:15:22,738 
+Response
+2026-07-24 21:15:22,738 {
+    "id": 222,
+    "name": "Pixel_c213d847",
+    "price": 32000,
+    "stock": 30,
+    "created_at": "2026-07-24T13:15:22.000000Z",
+    "updated_at": "2026-07-24T13:15:22.000000Z"
+}
+2026-07-24 21:15:22,738 ============================================================
+2026-07-24 21:15:22,943 ============================================================
+2026-07-24 21:15:22,943 Method : POST
+2026-07-24 21:15:22,943 URL    : http://127.0.0.1:8000/api/products
+2026-07-24 21:15:22,944 
+Headers
+2026-07-24 21:15:22,944 {
+    "Content-Type": "application/json"
+}
+2026-07-24 21:15:22,944 
+Request Body
+2026-07-24 21:15:22,944 {
+    "name": "Pixel_b96d4776",
+    "price": 32000,
+    "stock": 30
+}
+2026-07-24 21:15:22,944 
+Status Code : 201
+2026-07-24 21:15:22,944 
+Response
+2026-07-24 21:15:22,944 {
+    "name": "Pixel_b96d4776",
+    "price": 32000,
+    "stock": 30,
+    "updated_at": "2026-07-24T13:15:22.000000Z",
+    "created_at": "2026-07-24T13:15:22.000000Z",
+    "id": 223
+}
+2026-07-24 21:15:22,944 ============================================================
+2026-07-24 21:15:23,183 ============================================================
+2026-07-24 21:15:23,183 Method : PUT
+2026-07-24 21:15:23,183 URL    : http://127.0.0.1:8000/api/products/223
+2026-07-24 21:15:23,183 
+Headers
+2026-07-24 21:15:23,183 {
+    "Content-Type": "application/json"
+}
+2026-07-24 21:15:23,183 
+Request Body
+2026-07-24 21:15:23,183 {
+    "name": "Pixel_b2341c28",
+    "price": 38000,
+    "stock": 40
+}
+2026-07-24 21:15:23,183 
+Status Code : 200
+2026-07-24 21:15:23,183 
+Response
+2026-07-24 21:15:23,183 {
+    "id": 223,
+    "name": "Pixel_b2341c28",
+    "price": 38000,
+    "stock": 40,
+    "created_at": "2026-07-24T13:15:22.000000Z",
+    "updated_at": "2026-07-24T13:15:23.000000Z"
+}
+2026-07-24 21:15:23,184 ============================================================
+2026-07-24 21:15:23,400 ============================================================
+2026-07-24 21:15:23,401 Method : GET
+2026-07-24 21:15:23,401 URL    : http://127.0.0.1:8000/api/products/223
+2026-07-24 21:15:23,401 
+Headers
+2026-07-24 21:15:23,401 {
+    "Content-Type": "application/json"
+}
+2026-07-24 21:15:23,401 
+Request Body
+2026-07-24 21:15:23,401 {}
+2026-07-24 21:15:23,401 
+Status Code : 200
+2026-07-24 21:15:23,401 
+Response
+2026-07-24 21:15:23,401 {
+    "id": 223,
+    "name": "Pixel_b2341c28",
+    "price": 38000,
+    "stock": 40,
+    "created_at": "2026-07-24T13:15:22.000000Z",
+    "updated_at": "2026-07-24T13:15:23.000000Z"
+}
+2026-07-24 21:15:23,401 ============================================================
+2026-07-24 21:15:23,620 ============================================================
+2026-07-24 21:15:23,620 Method : POST
+2026-07-24 21:15:23,620 URL    : http://127.0.0.1:8000/api/products
+2026-07-24 21:15:23,620 
+Headers
+2026-07-24 21:15:23,620 {
+    "Content-Type": "application/json"
+}
+2026-07-24 21:15:23,620 
+Request Body
+2026-07-24 21:15:23,620 {
+    "name": "Pixel_d26b3609",
+    "price": 32000,
+    "stock": 30
+}
+2026-07-24 21:15:23,620 
+Status Code : 201
+2026-07-24 21:15:23,620 
+Response
+2026-07-24 21:15:23,620 {
+    "name": "Pixel_d26b3609",
+    "price": 32000,
+    "stock": 30,
+    "updated_at": "2026-07-24T13:15:23.000000Z",
+    "created_at": "2026-07-24T13:15:23.000000Z",
+    "id": 224
+}
+2026-07-24 21:15:23,620 ============================================================
+2026-07-24 21:15:23,821 ============================================================
+2026-07-24 21:15:23,821 Method : DELETE
+2026-07-24 21:15:23,821 URL    : http://127.0.0.1:8000/api/products/224
+2026-07-24 21:15:23,821 
+Headers
+2026-07-24 21:15:23,821 {
+    "Content-Type": "application/json"
+}
+2026-07-24 21:15:23,821 
+Request Body
+2026-07-24 21:15:23,822 {}
+2026-07-24 21:15:23,822 
+Status Code : 204
+2026-07-24 21:15:23,822 
+Response
+2026-07-24 21:15:23,822 
+2026-07-24 21:15:23,822 ============================================================
+2026-07-24 21:15:24,098 ============================================================
+2026-07-24 21:15:24,099 Method : GET
+2026-07-24 21:15:24,099 URL    : http://127.0.0.1:8000/api/products/224
+2026-07-24 21:15:24,099 
+Headers
+2026-07-24 21:15:24,099 {
+    "Content-Type": "application/json"
+}
+2026-07-24 21:15:24,099 
+Request Body
+2026-07-24 21:15:24,099 {}
+2026-07-24 21:15:24,099 
+Status Code : 404
+2026-07-24 21:15:24,099 
+Response
+2026-07-24 21:15:24,099 {
+    "message": "No query results for model [App\\Models\\Product] 224",
+    "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+    "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
+    "line": 768,
+    "trace": [
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
+            "line": 716,
+            "function": "prepareException",
+            "class": "Illuminate\\Foundation\\Exceptions\\Handler",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+            "line": 51,
+            "function": "render",
+            "class": "Illuminate\\Foundation\\Exceptions\\Handler",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 224,
+            "function": "handleException",
+            "class": "Illuminate\\Routing\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 137,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 821,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 800,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 764,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 753,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+            "line": 200,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 180,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php",
+            "line": 31,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 219,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php",
+            "line": 51,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 219,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 219,
+            "function": "handle",
+            "class": "Illuminate\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php",
+            "line": 109,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 219,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php",
+            "line": 74,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 219,
+            "function": "handle",
+            "class": "Illuminate\\Http\\Middleware\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php",
+            "line": 58,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 219,
+            "function": "handle",
+            "class": "Illuminate\\Http\\Middleware\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php",
+            "line": 22,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 219,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePathEncoding.php",
+            "line": 28,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 219,
+            "function": "handle",
+            "class": "Illuminate\\Http\\Middleware\\ValidatePathEncoding",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 137,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+            "line": 175,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+            "line": 144,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php",
+            "line": 1220,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\public\\index.php",
+            "line": 20,
+            "function": "handleRequest",
+            "class": "Illuminate\\Foundation\\Application",
+            "type": "->"
+        },
+        {
+            "file": "C:\\laragon\\www\\qa_api_automation\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php",
+            "line": 23,
+            "function": "require_once"
+        }
+    ]
+}
+2026-07-24 21:15:24,099 ============================================================

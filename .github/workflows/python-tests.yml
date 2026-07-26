@@ -1,35 +1,125 @@
-name: Python API Automation
+name: Python API Test
 
 on:
   push:
     branches:
       - main
 
-  pull_request:
-    branches:
-      - main
-
 jobs:
-
-  test:
+  api-test:
 
     runs-on: ubuntu-latest
 
+    services:
+      mysql:
+        image: mysql:8.0
+
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: practice
+
+        ports:
+          - 3306:3306
+
+        options: >-
+          --health-cmd="mysqladmin ping --silent"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=10
+
     steps:
 
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+    ##########################################
+    # Checkout
+    ##########################################
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
+    - name: Checkout
+      uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+    ##########################################
+    # Python
+    ##########################################
 
-      - name: Run Pytest
-        run: |
-          pytest -v
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.13"
+
+    - name: Install Python Packages
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    ##########################################
+    # PHP
+    ##########################################
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: "8.3"
+
+    ##########################################
+    # Composer
+    ##########################################
+
+    - name: Install Composer Packages
+      working-directory: laravel
+      run: composer install --no-interaction --prefer-dist
+
+    ##########################################
+    # Laravel .env
+    ##########################################
+
+    - name: Copy .env
+      working-directory: laravel
+      run: cp .env.example .env
+
+    - name: Generate APP_KEY
+      working-directory: laravel
+      run: php artisan key:generate
+
+    ##########################################
+    # Configure Database
+    ##########################################
+
+    - name: Configure Database
+      working-directory: laravel
+      run: |
+        sed -i 's/DB_CONNECTION=.*/DB_CONNECTION=mysql/' .env
+        sed -i 's/DB_HOST=.*/DB_HOST=127.0.0.1/' .env
+        sed -i 's/DB_PORT=.*/DB_PORT=3306/' .env
+        sed -i 's/DB_DATABASE=.*/DB_DATABASE=practice/' .env
+        sed -i 's/DB_USERNAME=.*/DB_USERNAME=root/' .env
+        sed -i 's/DB_PASSWORD=.*/DB_PASSWORD=root/' .env
+
+    ##########################################
+    # Migration + Seeder
+    ##########################################
+
+    - name: Run Migration
+      working-directory: laravel
+      run: php artisan migrate:fresh --seed --force
+
+    ##########################################
+    # Start Laravel
+    ##########################################
+
+    - name: Start Laravel
+      working-directory: laravel
+      run: |
+        php artisan serve --host=127.0.0.1 --port=8000 > laravel.log 2>&1 & sleep 15
+
+    ##########################################
+    # Run Pytest
+    ##########################################
+
+    - name: Run pytest
+      env:
+        DB_HOST: 127.0.0.1
+        DB_PORT: 3306
+        DB_DATABASE: practice
+        DB_USERNAME: root
+        DB_PASSWORD: root
+      run: |
+        pytest -v
