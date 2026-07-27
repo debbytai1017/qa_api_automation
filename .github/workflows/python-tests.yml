@@ -5,6 +5,8 @@ on:
     branches:
       - main
 
+  workflow_dispatch:
+
 jobs:
   api-test:
 
@@ -34,16 +36,17 @@ jobs:
     ##########################################
 
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     ##########################################
     # Python
     ##########################################
 
     - name: Setup Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
         python-version: "3.13"
+        cache: "pip"
 
     - name: Install Python Packages
       run: |
@@ -108,7 +111,12 @@ jobs:
     - name: Start Laravel
       working-directory: laravel
       run: |
-        php artisan serve --host=127.0.0.1 --port=8000 > laravel.log 2>&1 & sleep 15
+        php artisan serve \
+          --host=127.0.0.1 \
+          --port=8000 \
+          > laravel.log 2>&1 &
+
+        sleep 15
 
     ##########################################
     # Run Pytest
@@ -122,4 +130,65 @@ jobs:
         DB_USERNAME: root
         DB_PASSWORD: root
       run: |
-        pytest -v
+        pytest -v --alluredir=allure-results
+
+    ##########################################
+    # Install Allure CLI
+    ##########################################
+
+    - name: Install Allure CLI
+      if: always()
+      run: |
+        npm install -g allure-commandline
+        allure --version
+
+    ##########################################
+    # Generate Allure Single HTML Report
+    ##########################################
+
+    - name: Generate Allure Report
+      if: always()
+      run: |
+        allure generate allure-results \
+          --clean \
+          --single-file \
+          -o allure-report
+
+    ##########################################
+    # Upload Allure Raw Results
+    ##########################################
+
+    - name: Upload Allure Results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: allure-results
+        path: allure-results/
+        retention-days: 14
+        if-no-files-found: warn
+
+    ##########################################
+    # Upload Allure HTML Report
+    ##########################################
+
+    - name: Upload Allure HTML Report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: allure-report
+        path: allure-report/
+        retention-days: 14
+        if-no-files-found: warn
+
+    ##########################################
+    # Upload Laravel Log
+    ##########################################
+
+    - name: Upload Laravel Log
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: laravel-log
+        path: laravel/laravel.log
+        retention-days: 14
+        if-no-files-found: warn
