@@ -160,7 +160,7 @@ jobs:
 
     - name: Upload Allure Results
       if: always()
-      uses: actions/upload-artifact@v6
+      uses: actions/upload-artifact@v7
       with:
         name: allure-results
         path: allure-results/
@@ -173,7 +173,7 @@ jobs:
 
     - name: Upload Allure HTML Report
       if: always()
-      uses: actions/upload-artifact@v6
+      uses: actions/upload-artifact@v7
       with:
         name: allure-report
         path: allure-report/
@@ -186,20 +186,22 @@ jobs:
 
     - name: Upload Laravel Server Log
       if: always()
-      uses: actions/upload-artifact@v6
+      uses: actions/upload-artifact@v7
       with:
         name: laravel-server-log
         path: laravel/laravel.log
         if-no-files-found: warn
+        retention-days: 30
 
     ##########################################
     # Upload Laravel Error Log
     ##########################################
 
     - name: Upload Laravel Error Log
-      if: always()
-      uses: actions/upload-artifact@v6
+      if: failure()
+      uses: actions/upload-artifact@v7
       with:
         name: laravel-error-log
-        path: laravel/storage/logs/laravel.log
-        if-no-files-found: warn
+        path: laravel/storage/logs/
+        if-no-files-found: ignore
+        retention-days: 30
