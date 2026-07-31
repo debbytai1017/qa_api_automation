@@ -1,8 +1,8 @@
 # Python API Automation
 
-![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Pytest](https://img.shields.io/badge/Pytest-Test_Framework-blue)
 ![Laravel](https://img.shields.io/badge/Laravel-13-red)
-![CI](https://github.com/debbytai1017/qa_api_automation/actions/workflows/api-test.yml/badge.svg)
+![CI](https://github.com/debbytai1017/qa_api_automation/actions/workflows/python-tests.yml/badge.svg)
 
 An API automation testing project built with **Python**, **Pytest**, **Requests**, **Laravel API**, **GitHub Actions**, and **Allure Report**.
 
